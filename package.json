@@ -1,0 +1,17 @@
+{
+  "name": "april2026pwsessions",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "codegen" : "npx playwright codegen https://naveenautomationlabs.com/opencart/index.php?route=account/register"
+  },
+  "keywords": [],
+  "author": "Niranjan",
+  "license": "ISC",
+  "description": "This is my & naveen PW practise project",
+  "type": "module",
+  "devDependencies": {
+    "@playwright/test": "^1.61.1",
+    "@types/node": "^26.1.1"
+  }
+}
